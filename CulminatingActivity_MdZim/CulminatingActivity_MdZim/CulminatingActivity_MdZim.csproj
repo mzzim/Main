@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A4C9417-8B09-41ED-9E94-5C76AD64CC45}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CulminatingActivity_MdZim</RootNamespace>
+    <AssemblyName>CulminatingActivity_MdZim</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameLevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameLevel1.Designer.cs">
+      <DependentUpon>GameLevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HighScores.Designer.cs">
+      <DependentUpon>HighScores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InputName%28HighScore%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputName%28HighScore%29.Designer.cs">
+      <DependentUpon>InputName%28HighScore%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instructions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instructions.Designer.cs">
+      <DependentUpon>Instructions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pictures.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pictures.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GameLevel1.resx">
+      <DependentUpon>GameLevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HighScores.resx">
+      <DependentUpon>HighScores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputName%28HighScore%29.resx">
+      <DependentUpon>InputName%28HighScore%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructions.resx">
+      <DependentUpon>Instructions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pictures.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Pictures.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\j6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ji1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ji2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ji3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ji4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ji5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ji6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\l6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p31.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p41.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p51.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p61.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ri6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\121.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47arw.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
